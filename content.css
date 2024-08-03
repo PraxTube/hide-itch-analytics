@@ -1,0 +1,7 @@
+/* Hide analytics */
+#views_graph {
+  display: none!important;
+}
+#downloads_graph {
+  display: none!important;
+}
