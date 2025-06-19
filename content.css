@@ -8,3 +8,9 @@
 .notifications_bell {
   display: none!important;
 }
+.notifications_bubble {
+  display: none!important;
+}
+.stat_header_widget {
+  display: none!important;
+}
