@@ -4,11 +4,11 @@
   "version": "1.0",
   "description": "Hide analytics on itch dashboard.",
   "permissions": [
-    "https://itch.io/dashboard"
+    "*://*.itch.io/*"
   ],
   "content_scripts": [
     {
-      "matches": ["*://itch.io/dashboard"],
+      "matches": ["*://*.itch.io/*"],
       "css": ["content.css"]
     }
   ],
